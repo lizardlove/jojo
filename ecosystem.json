@@ -20,7 +20,9 @@
             "path": "/var/www/jojo/production",
             "ssh_options": "StrictHostKeyChecking=no",
             "pre-deploy-local": "echo 'Deploy Done!'",
-            "post-deploy" : "npm install && pm2 startOrRestart ecosystem.json --env production"
+            "env": {
+                "NODE_ENV": "production"
+            }
         }
     }
 }
