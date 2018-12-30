@@ -15,7 +15,7 @@
         "production": {
             "user": "root",
             "host": ["47.106.208.56"],
-            "port": "8888",
+            "port": "39999",
             "ref": "origin/master",
             "repo": "git@github.com:lizardlove/jojo.git",
             "path": "/var/www/jojo/production",
