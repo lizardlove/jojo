@@ -1,2 +1,1 @@
-# jojo
-jojo_family
+本地通过pm2自动部署到服务器环境
